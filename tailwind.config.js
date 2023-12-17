@@ -14,7 +14,9 @@ export default {
     extend: {
       colors:{
         dragonlordPurple :' #6B3CC9',
-        sunOrange: '#F28D35'
+        sunOrange: '#F28D35',
+        caribbeanBlue : '#1CBDDD',
+        emeraldGreen : '#4DCA79'
       },
       fontFamily:{
         inter:['Inter', 'sans-serif']

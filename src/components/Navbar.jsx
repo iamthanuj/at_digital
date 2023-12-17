@@ -11,9 +11,9 @@ function Navbar() {
 
   return (
     <div className="relative bg-dragonlordPurple h-[77px] flex items-center ">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between px-7">
         <div className="flex items-center">
-          <img src={logo} alt="main logo" className="mb-3 px-" />
+          <img src={logo} alt="main logo" className="mb-3 " />
         </div>
 
         {/* nav-menu-items */}
@@ -24,12 +24,12 @@ function Navbar() {
           <a href="#">CAREERS</a>
         </div>
 
-        <div className="text-white text-3xl block  md:hidden"  onClick={navToggle}>
-          {!navBar ? <AiOutlineClose/> : <AiOutlineMenu/>   }
+        <div className="text-white text-3xl  block  md:hidden"  onClick={navToggle}>
+          {!navBar ? <AiOutlineMenu/> : <AiOutlineClose/>    }
         </div>
 
         {/* mobile-menu */}
-        <div className={!navBar ? "absolute left-0 right-0 top-0 bg-dragonlordPurple flex flex-col items-center space-y-4 p-5 mt-[76px]  text-white font-inter font-medium z-0" :"-mt-28 absolute" }>
+        <div className={!navBar ? "hidden" : "absolute left-0 right-0 top-0 bg-dragonlordPurple flex flex-col items-center space-y-4 p-5 mt-[76px]  text-white font-inter font-medium z-10" }>
           <a href="#">SERVICES</a>
           <a href="#">ABOUT US</a>
           <a href="#">CONTACT US</a>
