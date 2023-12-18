@@ -50,3 +50,5 @@ function CtaSection() {
 }
 
 export default CtaSection;
+
+{/* developed by Thanuja Fernando */}

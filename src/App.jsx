@@ -72,3 +72,5 @@ function App() {
 }
 
 export default App;
+
+{/* developed by Thanuja Fernando */}
