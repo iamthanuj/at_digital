@@ -42,7 +42,7 @@ function CtaSection() {
       <div className="mt-10 flex flex-col items-center gap-2">
         <div className="container h-[1px] md:w-[630px] bg-white mx-auto"></div>
         <div>
-           <p className="text-white font-medium">Privacy Policyc&emsp;|&emsp;Terms & Conditions</p>
+           <p className="text-white font-medium text-sm">Privacy Policyc&emsp;|&emsp;Terms & Conditions</p>
         </div>
       </div>
     </div>
