@@ -10,7 +10,7 @@ function Navbar() {
   }
 
   return (
-    <div className="relative bg-dragonlordPurple h-[77px] flex items-center ">
+    <div className="relative bg-primaryColor h-[77px] flex items-center ">
       <div className="container mx-auto flex items-center justify-between px-7">
         <div className="flex items-center">
           <img src={logo} alt="main logo" className="mb-3 " />
@@ -29,7 +29,7 @@ function Navbar() {
         </div>
 
         {/* mobile-menu */}
-        <div className={!navBar ? "hidden" : "absolute left-0 right-0 top-0 bg-dragonlordPurple flex flex-col items-center space-y-4 p-5 mt-[76px]  text-white font-inter font-medium z-10" }>
+        <div className={!navBar ? "hidden" : "absolute left-0 right-0 top-0 bg-primaryColor flex flex-col items-center space-y-4 p-5 mt-[76px]  text-white font-inter font-medium z-10" }>
           <a href="#">SERVICES</a>
           <a href="#">ABOUT US</a>
           <a href="#">CONTACT US</a>

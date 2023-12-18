@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Button from "./components/Button";
+import CtaSection from "./components/CtaSection";
 import heroImage from "./assets/hero_image_xl.png";
 import pcImage from "./assets/computer.png";
 import searchImage from "./assets/search.png";
@@ -27,14 +28,14 @@ function App() {
         </div>
 
         {/* hero-container */}
-        <div className="container px-7 flex flex-col gap-[60px] mx-auto mt-[60px] font-inter">
+        <div className="max-w-7xl px-7 flex flex-col gap-[60px] mx-auto mt-[60px]">
           <div className="flex flex-col gap-5 md:flex-row">
             <img src={pcImage} alt="" />
             <div className="flex flex-col gap-5 text-center md:text-left justify-center">
-              <h1 className="text-dragonlordPurple text-[27px] font-bold">
-                Web & Mobile App Development
+              <h1 className="font-poppins text-primaryColor text-[27px] font-bold ">
+                Web & Mobile App Development 
               </h1>
-              <p>
+              <p className="font-interfont-inter font">
                 Your web and mobile Apps are pieces of the puzzle to grow your
                 business. We use frameworks which tailor content and engagement
                 methods to respond to different intents shown by your potential
@@ -47,7 +48,7 @@ function App() {
           <div className="flex flex-col gap-5  md:flex-row-reverse">
             <img src={searchImage} alt="" />
             <div className="flex flex-col gap-4 text-center md:text-left justify-center">
-              <h1 className="text-dragonlordPurple text-[27px] font-bold">
+              <h1 className="font-poppins text-primaryColor text-[27px] font-bold">
                 Digital Strategy Consulting
               </h1>
               <p>
@@ -62,6 +63,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      <CtaSection/>
     </>
   );
 }
