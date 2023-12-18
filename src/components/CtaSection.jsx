@@ -7,7 +7,7 @@ function CtaSection() {
       <div className="container flex flex-col gap-[60px] lg:flex-row md:justify-between mx-auto">
         <div className="flex flex-col gap-5">
           <img src={logo} alt="footer logo" className="w-[239px]" />
-          <p className="text-white md:max-w-[413px]">
+          <p className="text-white font-lato md:max-w-[413px]">
             Your goal is our target. Not anything in between. We use online
             marketing platforms and tools to achieve single objective - your
             business results.
@@ -17,12 +17,12 @@ function CtaSection() {
           <div className="flex flex-col gap-3">
             <h1 className="font-semibold text-[21px]">Our Technologies</h1>
             <ul className="flex flex-col gap-3">
-              <li>ReactJS</li>
-              <li>Gatsby</li>
-              <li>NextJS</li>
-              <li>NodeJS</li>
-              <li>GraphQL</li>
-              <li>Laravel</li>
+              <li className="cursor-pointer">ReactJS</li>
+              <li className="cursor-pointer">Gatsby</li>
+              <li className="cursor-pointer">NextJS</li>
+              <li className="cursor-pointer">NodeJS</li>
+              <li className="cursor-pointer">GraphQL</li>
+              <li className="cursor-pointer">Laravel</li>
             </ul>
           </div>
 

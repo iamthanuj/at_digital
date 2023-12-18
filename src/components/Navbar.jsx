@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className="relative bg-primaryColor h-[77px] flex items-center ">
-      <div className="container mx-auto flex items-center justify-between px-7">
+      <div className="container mx-auto flex items-center justify-between md:px-7">
         <div className="flex items-center">
           <img src={logo} alt="main logo" className="mb-3 " />
         </div>

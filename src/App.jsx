@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Button from "./components/Button";
 import CtaSection from "./components/CtaSection";
 import heroImage from "./assets/hero_image_xl.png";
+import smallHeroImage from './assets/small_hero_image.png'
 import pcImage from "./assets/computer.png";
 import searchImage from "./assets/search.png";
 
@@ -14,7 +15,8 @@ function App() {
       <div id="hero-section" className="w-full h-full">
         {/* Hero-image-section */}
         <div className="relative">
-          <img src={heroImage} alt="" className="w-full h-full" />
+          <img src={heroImage} alt="" className="w-full h-full hidden xl:block" />
+          <img src={smallHeroImage} alt="" className="w-full h-full sm:block xl:hidden " />
           <div className="w-full  bottom-7  left-0 right-0  lg:absolute  lg:container  lg:px-7  lg:left-1/2 transform lg:-translate-x-1/2">
             <div className="flex flex-col gap-6  max-w-full  xl:max-w-[630px] lg:max-w-[622px]  p-7 bg-gradient-to-r from-emeraldGreen to-caribbeanBlue">
               <h1 className="text-white font-bold text-4xl md:text-5xl">
@@ -35,7 +37,7 @@ function App() {
               <h1 className="font-poppins text-primaryColor text-[27px] font-bold ">
                 Web & Mobile App Development 
               </h1>
-              <p className="font-interfont-inter font">
+              <p className="font-inter">
                 Your web and mobile Apps are pieces of the puzzle to grow your
                 business. We use frameworks which tailor content and engagement
                 methods to respond to different intents shown by your potential
@@ -51,7 +53,7 @@ function App() {
               <h1 className="font-poppins text-primaryColor text-[27px] font-bold">
                 Digital Strategy Consulting
               </h1>
-              <p>
+              <p className="font-inter">
                 Your digital strategy should complement the overall marketing
                 strategy of the company. In online marketing, each component
                 will never work in isolation and every business needs a
