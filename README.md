@@ -1,5 +1,5 @@
 # <p align="center">AT Digital Landing Page</p>
-## 💻 Tech Stack: (MERN Stack)
+## 💻 Technologies
 - React JS
 - Tailwind CSS
 
